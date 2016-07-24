@@ -53,7 +53,7 @@ ODBC 드라이버를 이용하므로 목표 DBMS에 적합한 ODBC 드라이버�
 * 변경 내용을 반영하고 싶은 항목[테이블/컬럼/인덱스/reference]에 따라 해당 작업 버튼을 클릭해서 DDL 소스가 나오도록 한다.
 * 출력된 결과를 이용해서 DB에 변경내용을 반영한다.
 
-# table change management (english)
+# table change management (english: I will write later.)
 
 Excel file that contains the VBA macro to create DDL statements for chaning DB.
 
