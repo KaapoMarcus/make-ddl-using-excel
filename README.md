@@ -1,4 +1,4 @@
-# 테이블 변경관리 (한국어)
+# 테이블 변경관리
 
 이 도구는 DB 변경을 위한 DDL 구문을 만들어주는 VBA macro가 포함된 엑셀 파일이다.
 
@@ -52,27 +52,3 @@ ODBC 드라이버를 이용하므로 목표 DBMS에 적합한 ODBC 드라이버�
 * DDL이 출력되서 나올 파일의 경로를 입력한다. DDL 구문이 길기 때문에 별도의 텍스트 파일에 소스가 출력되서 나오게 하는 것이다.
 * 변경 내용을 반영하고 싶은 항목[테이블/컬럼/인덱스/reference]에 따라 해당 작업 버튼을 클릭해서 DDL 소스가 나오도록 한다.
 * 출력된 결과를 이용해서 DB에 변경내용을 반영한다.
-
-# table change management (english: I will write later.)
-
-Excel file that contains the VBA macro to create DDL statements for chaning DB.
-
-If you want to use this tool in your work, If you want to use this tool in your work, read the instructions below first.
-
-## Goal
-
-It compare table design in excel file and DB, and creates DML and DML.
-
-The generated DDL is the worker must be run manually.
-
-## Understanding configuration
-
-There are three files.
-
-* Excel file that contains the VBA for creating DDL
-* Excel file that contains tables design
-* Excel file that contains table change requests
-
-## Precedence
-
-ODBC driver should have been installed in Windows.
